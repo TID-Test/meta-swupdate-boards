@@ -8,5 +8,3 @@ tmpfs                /var/volatile        tmpfs      defaults              0  0
 
 # We need to mount the first partition to access the U-Boot environment
 /dev/mmcblk0p1       /boot                auto       defaults,sync         0  0
-
-/dev/mmcblk0p4       /data                auto       defaults,sync         0  0
